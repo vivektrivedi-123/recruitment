@@ -1,0 +1,178 @@
+.w-img-24{
+   width: 24px;
+   }
+   /*------------Custom select box----------*/
+   /*-custom*/
+
+   /*-------------Card layout-----------*/
+   .card-pannel .card{
+   width: 245px;
+   cursor: pointer;
+   }
+   .rotate-90 ,.display-information .dripicons-phone:before{
+   transform: rotate(90deg);
+   }
+   .candidates-detail-card:hover{
+   -webkit-box-shadow: 0 0 5px #99b8bb;
+   box-shadow: 0 0 5px #99b8bb;
+   }
+   .candidates-detail-card  .form-check{
+   left: -10px;
+   top: 50%;
+   transform: translateY(-50%);
+   }
+   .candidates-detail-card:hover .form-check-input{
+   visibility: visible !important;
+   }
+   .candidates-detail-card  .form-check-input{
+   border: 1px solid #888686;
+   }
+   .candidates-detail-card  .form-check-input:checked {
+   border-color: #3ec5d1;
+   background-color: #3ec5d1;
+   visibility: visible !important;
+   }
+   .candidates-detail-card  .card-footer {
+   background: linear-gradient(0deg,#fff 0,#f8f9fa 100%);
+   }
+   .card-pannel-user-detail {
+   height: calc(100vh - 220px);
+   overflow-y: hidden;
+   margin: 0 -15px;
+   padding: 0 15px;
+   }
+   .card-pannel-user-detail:hover{
+   overflow: visible;
+   overflow-y: auto;
+   }
+   .custom-scrollbar::-webkit-scrollbar {
+   width: 5px;
+   }
+   .custom-scrollbar::-webkit-scrollbar-track {
+   background: transparent; 
+   }
+   .custom-scrollbar::-webkit-scrollbar-thumb {
+   background: #ccc;
+   border-radius: 5px;
+   }
+   .user-info-card  .display-information{
+   right: -17px;
+   z-index: 9;
+   min-width: 260px;
+   }
+   .display-information>.arrow-top:after {
+   content: '';
+   position: absolute;
+   display: block;
+   width: 0;
+   height: 0;
+   border-color: transparent;
+   border-style: solid;
+   left: -11px;
+   margin-top: 0;
+   border-left-width: 0;
+   border-bottom-color: #fff;
+   top: -10px;
+   border-width: 11px;
+   }
+   .candidates-owner.display-information{
+   right: -28px;
+   }
+   .candidates-owner{
+   width: 245px;
+   }
+   .display-information>.arrow-top {
+   width: 0;
+   height: 0;
+   border-color: transparent;
+   border-style: solid;
+   }
+   .display-information>.arrow-top {
+   border-width: 11px;
+   left: 40px;
+   border-top-width: 0;
+   border-bottom-color: #999;
+   border-bottom-color: rgba(0,0,0,.25);
+   top: -11px;
+   }
+   .candidate-action-icons{
+   width: 30px;
+   height: 30px;
+   }
+   .candidate-action-icons:hover ,.all-selected-candidate:hover{
+   background: transparent !important;
+   }
+   .all-selected-candidate .form-check{
+   left: 6px;
+   }
+   .dropdown-heading:hover{
+   background: transparent;
+   }
+   /*----------Modal---------------*/
+   .email-bulk-ul li.email-bulk-li{
+   width:31px;
+   height: 31px;
+   }
+   .email-bulk-ul li.email-bulk-li:hover{
+   background: #ebedf0
+   }
+   .public-private-ul{
+   min-width: 325px;
+   }
+   .rotate-180.dropdown-toggle::after {
+   transform: rotate(180deg);
+   }
+   label.form-label.mail-label {
+   min-width: 70px;
+   }
+   /*------------3 dot-----*/
+   .candidate-name{
+   width: 32px;
+   height: 32px;
+   line-height: 2.3;
+   }
+   .snooze-candidate-ul li{
+   width: 125px;
+   }
+   .label-not-float{
+   top: -11px;
+   left: 16px;
+   }
+   .update-owner-dropdown{
+   width: 300px;
+   }
+   .update-owner-dropdown .overflow-auto{
+   height: 300px
+   }
+   .panel-members-search{
+   width: 270px;
+   height: 340px;
+   }
+   .search-icon-circle {
+   width: 26px;
+   height: 26px;
+   left: 19px;
+   top: 20px;
+   }
+   .search-icon-input{
+   padding-left: 3rem;
+   }
+
+   .form-floating>.form-control:focus~label,
+      .form-floating>.form-control:not(:placeholder-shown)~label,
+      .form-floating>.form-select~label {
+      opacity: 1;
+      -webkit-transform: scale(0.9) translateY(-1.2rem) translateX(0.15rem);
+      transform: scale(0.9) translateY(-1.2rem) translateX(0.15rem);
+      background: #fff;
+      color: #3ec5d1 !important;
+      padding-top: 0;
+      padding-bottom: 0;
+      height: auto;
+      }
+      .form-floating>label{
+      top: 0;
+      }
+
+
+      

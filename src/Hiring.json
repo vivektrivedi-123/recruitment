@@ -1,0 +1,72 @@
+{
+    "department":[
+        "Administration",
+        " Business Development",
+        "Designing",
+        "Finance",
+        "Human Resources",
+        "Marketing",
+        "Quality Assurance",
+        "Sales",
+        "Web Development"
+    ],
+    "experience":[
+        "Internship",
+        "Entry level",
+        "Associate",
+        " Mid-Senior level",
+        "Director/Vice-President",
+        "Executive/President"
+    ],
+    "location":[
+        "Mohali , India",
+        "Chandigarh , India"
+    ],
+    "jobType":[
+        "Contract",
+        "Full Time",
+        "Internship",
+        "Part Time",
+        "Temporary",
+        "Seasonal",
+        "Volunteer",
+        "Fixed Term Contract",
+        "Secondment"
+    ],
+    "currency":[
+        "INR",
+        "US $",
+        "UK $"
+    ],
+
+    "source":[
+        {"name":" Advertisement","value":" Advertisement"},
+        {"name":"Agencies","value":"Agencies"},
+        {"name":"Email","value":"Email"},
+        {"name":"Events","value":"Events"},
+        {"name":"Free Job Boards","value":"Free Job Boards"},
+        {"name":"Job Boards","value":"Job Boards"},
+        {"name":" Portal","value":" Portal"},
+        {"name":"Premium Job Boards","value":"Premium Job Boards"},
+        {"name":"Recruitment Drive","value":"Recruitment Drive"},
+        {"name":"Referral","value":"Referral"},
+        {"name":"Referral - social","value":"Referral - social"},
+        {"name":" Social ","value":" Social "},
+        {"name":"Universities","value":"Universities"}
+    ],
+    "sourceSocial":[
+        {"name":"Adzuna","value":"Adzuna"},
+        {"name":"Direct","value":"Direct"},
+        {"name":"Facebook","value":"Facebook"},
+        {"name":"FB page tab","value":"FB page tab"},
+        {"name":"Glassdoor","value":"Glassdoor"},
+        {"name":"Indeed","value":"Indeed"},
+        {"name":"Internal","value":"Internal"},
+        {"name":"Linkedin","value":"Linkedin"},
+        {"name":"Monster","value":"Monster"},
+        {"name":"Naukri","value":"Naukri"},
+        {"name":"Neuvoo","value":"Neuvoo"},
+        {"name":"Twitter","value":"Twitter"},
+        {"name":"ZipRecruiter","value":"ZipRecruiter"}
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "conversationData":[
+      "conversation"
+    ],
+    "conversation":[
+        {
+        "name":"Shivam Upadhyay",
+        "technology":"MERN Stack",
+        "techbrand":"Full Stack Developer",
+        "email":"rudra@gmail.com",
+        "date":"May 21th 2010",
+        "stage":"Open",
+        "rating":[1,2,3,4,5]
+    }
+   ]  ,
+   "open":[
+           "Open"
+   ],
+   "screening":[
+    "Apptitude",
+    "Assignment"
+   ],
+        
+   "interviews":[
+    "HR Round",
+    "Technical Round",
+    "Director Round",
+    "Psychometric Round"
+   ],
+          
+  "offer":[
+    "Offer Draft",
+    "Offered",
+    "Offer Accepted",
+    "Offer Declined"
+  ],
+  "hire":[
+    "Hired"
+  ],
+  "owner":[
+    {
+    "ownerName":"Shivam",
+    "src":"/image/graph.png"
+  },
+  {
+    "ownerName":"Pal",
+    "src":"/image/graph.png"
+  }
+]
+}

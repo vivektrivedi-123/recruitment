@@ -1,0 +1,43 @@
+.manage-sec p{
+    line-height: 1.7;
+    }
+    .hover-btns span{
+    display: none;
+    top: 10px;
+    right: 10px;
+    }
+    .hover-btns{
+    top: 10px;
+    right: 10px;
+    }
+    .show-btns:hover .hover-btns span{
+    display:flex;
+    justify-content: center;
+    }
+   body{
+     overflow-x: hidden!important;
+   }
+
+
+   ::-webkit-scrollbar {
+  width: 6px;
+  }
+
+ ::-webkit-scrollbar-track {
+ background: #f1f1f1; 
+ }
+
+ ::-webkit-scrollbar-thumb {
+ background: #888; 
+ }
+
+.settings a.active {
+    background-color: #f1f2fe;
+}
+.settings{
+    top: 55px !important;
+    width: inherit !important;
+}
+.dept{
+    width:690px;
+}

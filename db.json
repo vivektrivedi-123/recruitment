@@ -1,0 +1,17 @@
+{
+  "jobs": [
+    {
+      "jobTitle": "Full stack",
+      "jobName": "Business Development",
+      "jobType": "Internship",
+      "experience": "Entry level",
+      "remote": false,
+      "lang": "Javascript",
+      "currency": "INR(Indian Rupee)",
+      "minsalary": "4344",
+      "maxSalary": "4454",
+      "location": "",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+.label-not-float {
+    top: -11px;
+    left: 16px;
+}
+.footer-ul{
+   left: -1px;
+}
+.form-floating>label{
+   top: 0;
+}
+.form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+       opacity: 1;
+       -webkit-transform: scale(0.9) translateY(-1.2rem) translateX(0.15rem);
+       transform: scale(0.9) translateY(-1.2rem) translateX(0.15rem);
+       background: #fff;
+       color: #3ec5d1 !important;
+       padding-top: 0;
+       padding-bottom: 0;
+       height: auto;
+}
+.manage-sec p{
+line-height: 1.7;
+}
+.hover-btns span{
+display: none;
+top: 10px;
+right: 10px;
+}
+.hover-btns{
+top: 10px;
+right: 10px;
+}
+.show-btns:hover .hover-btns span{
+display:flex;
+justify-content: center;
+}
+body{
+ overflow-x: hidden!important;
+}
+
+.settings a:hover, .settings a.active{
+ background-color:#f1f2fe;
+}
+::-webkit-scrollbar {
+width: 6px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+background: #888; 
+}

@@ -1,0 +1,23 @@
+.clear-sample-data-btn {
+    left: calc(50% - 85px);
+    top: 0;
+    padding:0px 10px 7px 10px;
+    background-color: #009ae6;
+    border-radius: 0 0 11px 11px;
+    max-width: 170px;
+}
+
+.clear-sample-data-btn::before {
+    left: -9px;
+    border-right: 11px solid #009ae6;
+}
+.clear-sample-data-btn::after {
+    right: -9px;
+    border-left: 11px solid #009ae6;
+}
+.clear-sample-data-btn::before, .clear-sample-data-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    border-bottom: 28px solid transparent;
+}

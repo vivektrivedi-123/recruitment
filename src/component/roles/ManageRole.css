@@ -1,0 +1,34 @@
+.manage .hover-btns i{
+    display: none;
+    top: 35px!important;
+    right: 10px;
+    }
+   .manage .hover-btns{
+    top: 35px!important;
+    right: 10px;
+    }
+   .manage .show-btns:hover .hover-btns i{
+    display:flex;
+    justify-content: center;
+    }
+   body{
+     overflow-x: hidden!important;
+   }
+
+   .settings a:hover, .settings a.active{
+     background-color:#f1f2fe;
+   }
+   ::-webkit-scrollbar {
+  width: 6px;
+  }
+
+ ::-webkit-scrollbar-track {
+ background: #f1f1f1; 
+ }
+
+ ::-webkit-scrollbar-thumb {
+ background: #888; 
+ }
+ #tooltip-container21 li:hover {
+  background-color: #daedfb;
+}

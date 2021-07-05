@@ -1,0 +1,52 @@
+a.ps-0.pe-3.font-600:hover {
+    color: #ff5969;
+    }
+    .hov-eff:hover ,.add-attract-candidate .hov-eff.active ,.add-attract-candidate .hov-eff.show{
+    cursor: pointer;
+    background-color: #f7f7f7;
+    }
+    .hov-eff1:hover{
+    cursor: pointer;
+    background-color: #cbd1d9;
+    }
+    .btn-white:hover {
+    background-color: #3ec5d1;
+    border-color: #3ec5d1;
+    color: #fff;
+    }
+    /* #tooltip-container2 {
+       border: 1px solid #dcf1ff;
+       background-color: #e9f7ff;
+   } */
+   
+   #tooltip-container2 li:hover {
+       background-color: #daedfb;
+   }
+   .show-on-hover{
+      display: none;
+   }
+   .hov-eff:hover .hide-on-hover{
+      display: none;
+   }
+   .hov-eff:hover .show-on-hover {
+      display: block;
+   }
+   .bg-transparent1{
+    background: #00000059;
+   }
+
+   .card-pannel .card{
+    width: 200px;
+    cursor: pointer;
+    }
+ 
+    .border-dashed{
+      border:1px dashed grey;
+    }
+    .border-dashed-2{
+      border: 2px dashed #dee2e6 !important;
+    }
+    .ck.ck-editor__editable_inline
+    {
+       height: 200px !important;
+    }

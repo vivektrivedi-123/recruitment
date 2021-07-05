@@ -1,0 +1,22 @@
+.preferences input[data-switch]:checked+label:after {
+    left: 60px!important;
+    background-color: #f1f3fa;
+    }
+     body{
+       overflow-x: hidden!important;
+     }
+
+     .settings a:hover, .settings a.active{
+       background-color:#f1f2fe;
+     }
+     ::-webkit-scrollbar {
+    width: 6px;
+    }
+
+   ::-webkit-scrollbar-track {
+   background: #f1f1f1; 
+   }
+
+   ::-webkit-scrollbar-thumb {
+   background: #888; 
+   }

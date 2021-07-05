@@ -1,0 +1,50 @@
+.form-floating.custom-select-float>.form-control:not(:placeholder-shown)~label{
+    transform: unset;
+}
+.form-floating.custom-select-float>.form-control:focus~label ,
+.select2-container--focus + label ,
+ .select2-container--below + label{
+ -webkit-transform:  scale(0.85) translateY(-1.9rem) translateX(0.15rem) !important;
+ transform:  scale(0.85) translateY(-1.9rem) translateX(0.15rem) !important;
+}
+
+ .update-owner-dropdown {
+     width: 300px;
+ }
+ .candidate-name {
+     width: 32px;
+     height: 32px;
+     line-height: 2.3;
+ }
+ .search-icon-circle {
+     width: 28px;
+     height: 28px;
+ }
+.update-owner-dropdown .overflow-auto {
+  height: 300px;
+}
+
+
+/*-custom large modal-------*/
+
+.modal-lg-content.filter-area .end-bar-toggle {
+
+margin-top: -21px!important;
+}
+.modal-lg-content.filter-area {
+     top: 20px;
+  }
+/*---------------------------*/
+
+
+@media screen and (min-width: 992px) {
+.modal-lg-content.filter-area {
+  width: 820px;
+     top: 20px;
+     right: -860px
+ }
+.end-bar-enabled .modal-lg-content.end-bar {
+  right: 0;
+}
+
+}

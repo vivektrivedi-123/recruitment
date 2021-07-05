@@ -1,0 +1,80 @@
+.min-width-auto{
+    min-width: auto;
+    }
+    .dropdown-toggle.after-none::after{
+    display: none
+    }
+    .form-check-input {
+    cursor: pointer;
+    }
+    .employee-detail-card {
+    width: 253px;
+    height: 250px;
+    }
+    @media (min-width: 1800px){
+    .employee-detail-card {
+    width: 259px;
+    }
+    }
+    .employee-name{
+    width: 140px;
+    height: 140px;
+    }
+    .bg-purple{
+    background: #BFC5EE;
+    opacity:0.9;
+    }
+    .on-hover-employee{
+    visibility: hidden;
+    z-index: 1;
+    background: rgba(255 ,255 ,255,0.9);
+    -webkit-box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+    -webkit-transition: box-shadow .2s;
+    -o-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+    }
+    .left-0{
+    left: 0;
+    }
+    .card-body:hover .on-hover-employee{
+    visibility: visible;
+    border-radius: 5px;
+    }
+    .all-employee-category .dropdown-menu {
+    min-width: 400px;
+    }
+    .search-field-sec{
+    left: 10px;
+    }
+    .employee-detail-card .form-check{
+    z-index: 2;
+    top: 12px;
+    left: 12px;
+    }
+    .unverified{
+    margin-top: -16px;
+    }
+    .company-logo-email{
+    width: 61px;
+    height: 25px;
+    }
+    .find-co-worker{
+    width:80px;
+    }
+    .email-footer{
+    background-color: #fff9fa;
+    /* background-image: url(image/brand.png); */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    }
+    .invite-email .email-preview{
+    background: #eef1f6;
+    border-top:1px solid red;
+    border-bottom: 1px solid red;
+    }
+    .invite-email {
+    height: 400px;
+    overflow: auto;
+    background: #eef1f6;
+    }

@@ -1,0 +1,90 @@
+ /*-------------common css----------*/
+ input[data-switch]+label:after{
+    width: 10px;
+    height: 10px;
+ }
+ input[data-switch]+label {
+     width: 45px;
+     height: 20px;
+  }
+  input[data-switch]:checked+label:after {
+     left: 25px;
+ }
+  input[data-switch]+label:after{
+    top: 4px;
+  }
+ .left-0{
+    left: 0;
+ }
+  .border-left-radius-0{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+ .cursor-not-allowed{
+ cursor: not-allowed;
+ opacity: 0.5;
+ }
+ .resize-none{
+ resize: none;
+ }
+ .semi-bold {
+ font-weight: 500 !important;
+ }
+ .min-width-auto{
+ min-width: auto;
+ }
+ .right-content-bar p{
+ line-height: 1.7;
+ }
+ .nav-tabs.nav-bordered{
+ padding: 0 32px;
+ }
+ .z-index-9{
+ z-index: 9;
+ }
+ .form-floating>.form-control:focus~label,
+ .form-floating>.form-control:not(:placeholder-shown)~label,
+ .form-floating>.form-select~label {
+ opacity: 1;
+ -webkit-transform: scale(0.9) translateY(-1.2rem) translateX(0.15rem);
+ transform: scale(0.9) translateY(-1.2rem) translateX(0.15rem);
+ background: #fff;
+ color: #3ec5d1 !important;
+ padding-top: 0;
+ padding-bottom: 0;
+ height: auto;
+ }
+ .form-floating>label{
+ top: 0;
+ }
+  .bg-purple{
+    background: #BFC5EE;
+    opacity:0.9;
+    }
+ /*-------Edit employee--------*/
+ .remove-filled-input{
+ right: 27px;
+ top: 4px;
+ }
+ .available-roles-sec{
+ height: 500px;
+ }
+
+    .employee-profile{
+       width: 90px;
+     height: 90px;
+    }
+.upload-btn-wrapper input[type=file] {
+      font-size: 100px;
+    
+      opacity: 0;
+    }
+
+    .select-search {
+        width: 415px ;
+        /* border-style:1px solid;
+        border-width: thin; */
+
+       
+    }
+  
