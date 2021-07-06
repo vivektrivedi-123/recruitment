@@ -14,8 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'cd /var/lib/jenkins/workspace/Node-Project/build'
-                sh 'cp -r * /var/www/html/'
+                sh 'cd /var/lib/jenkins/workspace/Node-Project/build && 'cp -r * /var/www/html/'
             }
         }
     }
