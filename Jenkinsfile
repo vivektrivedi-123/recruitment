@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Npm install') {
             steps {
-                bat 'npm i'
+                sh 'sudo npm i'
             }
         }
         stage('Build') {
             steps {
-                bat 'npm run build'
+                sh 'sudo npm run build'
             }
         }
         stage('Deploy') {
             steps {
-                bat 'xcopy %WORKSPACE% C:\\inetpub\\wwwroot'
+                sh 'sudo cp -r /var/lib/jenkins/workspace/Pipeline-Testing/build/* /var/www/html'
             }
         }
     }
