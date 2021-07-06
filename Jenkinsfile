@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'sudo cp -r /var/lib/jenkins/workspace/Pipeline-Testing/build/* /var/www/html'
+                sh 'sudo cp -r /var/lib/jenkins/workspace/Node-Project/* /var/www/html'
             }
         }
     }
