@@ -1,21 +1,28 @@
 pipeline {
-    agent any
-
-    stages {
-        stage('Npm install') {
-            steps {
-                sh 'npm i'
-            }
-        }
-        stage('Build') {
-            steps {
-                sh 'npm run build -prod'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                sh 'sudo cp -r /var/lib/jenkins/workspace/Node-Project/* /var/www/html'
-            }
-        }
+  agent any
+    
+  tools {nodejs "node"}
+    
+  stages {
+        
+    stage('Git') {
+      steps {
+        git 'https://github.com/vivektrivedi-123/recruitment.git'
+      }
     }
+     
+    stage('Build') {
+      steps {
+        sh 'npm install'
+         sh 'npm run build'
+      }
+    }  
+    
+            
+    stage('Test') {
+      steps {
+        sh 'node test'
+      }
+    }
+  }
 }
