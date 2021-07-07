@@ -4,17 +4,18 @@ pipeline {
     stages {
         stage('Npm install') {
             steps {
-                bat 'npm i'
+                echo '%WORKSPACE%'
+                //bat 'npm i'
             }
         }
         stage('Build') {
             steps {
-                bat 'npm run build'
+                //bat 'npm run build'
             }
         }
         stage('Deploy') {
             steps {
-                echo '%WORKSPACE%'
+                //echo '%WORKSPACE%'
                 //bat 'xcopy %WORKSPACE%\\build C:\inetpub\wwwroot'
             }
         }
