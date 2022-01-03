@@ -39,5 +39,10 @@ pipeline{
                 '''
             }
         }
+        stage('Artifacts'){
+            steps{
+                archiveArtifacts 'build.zip'
+            }
+        }
     }
 }
