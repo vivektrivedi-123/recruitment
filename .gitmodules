@@ -1,0 +1,3 @@
+[submodule "the-example-app.nodejs"]
+	path = the-example-app.nodejs
+	url = https://github.com/contentful/the-example-app.nodejs.git
