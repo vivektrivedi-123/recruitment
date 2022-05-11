@@ -8,7 +8,7 @@ USER node
 RUN sudo npm i && sudo npm run build
 RUN sudo chown -R 1000:1000 build
 
-FROM nginx:latest
+FROM nginx:15
 WORKDIR /usr/share/nginx/html
 COPY --from=testing /app/build .
 COPY start.sh .
